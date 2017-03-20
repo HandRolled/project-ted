@@ -32,6 +32,7 @@ class Word
 
   # Properties
   id_property :normalized_text
+  property :is_stop_word, type: Boolean, default: false
 
   property :created_at
   property :updated_at
